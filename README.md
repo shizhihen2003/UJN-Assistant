@@ -4,24 +4,28 @@
 
 <div align="center">
 
-# 青科助手
+# 济大助手
 
-✨ 青岛科技大学-教务系统APP ✨
+✨ 济南大学-教务系统APP ✨
 </div>
 
 <p align="center">
-  <a href="https://github.com/2891954521/QUST-Assistant/blob/master/LICENSE">
+  <a href="https://github.com/shizhihen2003/UJN-Assistant/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-GPL--3.0-green" alt="license">
   </a>
-  <a href="https://github.com/2891954521/QUST-Assistant/releases">
+  <a href="https://github.com/shizhihen2003/UJN-Assistant/releases">
     <img src="https://img.shields.io/github/v/release/2891954521/QUST-Assistant" alt="release">
   </a>
 </p>
 
+### 特别致谢
+本软件由2891954521开发，本人在取得授权对情况下进行魔改
+原软件地址：https://github.com/2891954521/QUST-Assistant
+嗯，因为我太菜了，改后由bug，哈哈
 
 ### 功能简介 📃
 
-- 丢弃繁重的QUSB教务系统,实现APP登录查询
+- 丢弃繁重的教务系统,实现APP登录查询
 
 ![](Images/Screenshot_20230730-174031.jpg) ![](Images/Screenshot_20230730-174807.jpg) ![](Images/Screenshot_20230730-175038.jpg)
 
