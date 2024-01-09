@@ -39,7 +39,7 @@
 			android:padding="@dimen/activity_margin"
 			android:textSize="@dimen/text_small"
 			android:textColor="@color/colorSecondaryText"
-			android:text="\t欢迎使用青科助手，我们需要以下信息以便使用软件完整功能"/>
+			android:text="\t欢迎使用济大助手，我们需要以下信息以便使用软件完整功能"/>
 		
 		<com.google.android.material.textfield.TextInputLayout
 			style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
