@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/colorLight"
+        app:cardCornerRadius="32dp">
+
+        <LinearLayout
+            android:id="@+id/nav_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextBig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_margin"
+                android:gravity="start|center"
+                android:text="@string/app_name"
+                android:textColor="@color/colorPrimaryText"
+                android:paddingStart="0dp"
+                android:paddingEnd="@dimen/widget_margin"
+                app:drawableEndCompat="@mipmap/ic_launcher" />
+
+            <com.qust.assistant.widget.menu.MenuList
+                android:id="@+id/nav_main_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:listSelector="?android:selectableItemBackground"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

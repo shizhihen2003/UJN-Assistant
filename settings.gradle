@@ -1,0 +1,3 @@
+rootProject.name = "济大助手"
+include ':app'
+include ':base'

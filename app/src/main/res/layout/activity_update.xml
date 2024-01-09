@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorLight"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="更新"
+        app:titleTextColor="@color/colorPrimaryText" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:orientation="horizontal">
+        
+        <TextView
+            style="@style/TextNormal"
+            android:id="@+id/activity_update_current_version"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start|center"
+            android:drawablePadding="@dimen/widget_margin"
+            android:padding="@dimen/widget_margin"
+            app:drawableStartCompat="@mipmap/ic_launcher"
+            tools:text="v1.0"/>
+        
+        <Button
+            android:id="@+id/activity_update_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检查更新" />
+        
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+    
+        <TextView
+            style="@style/TextNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/widget_margin"
+            android:text="更新渠道" />
+    
+        <NumberPicker
+            android:id="@+id/activity_update_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="@dimen/activity_margin"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:descendantFocusability="blocksDescendants" />
+        
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/activity_update_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_weight="1"
+        android:autoLink="web"
+        android:padding="@dimen/widget_margin"/>
+    
+    <Button
+        android:id="@+id/activity_update_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_margin"
+        android:visibility="gone"
+        android:text="更新"/>
+    
+</LinearLayout>
+

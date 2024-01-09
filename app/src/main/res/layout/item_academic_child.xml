@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	
+	<LinearLayout
+		android:id="@+id/item_academic_background"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/activity_margin"
+		android:layout_marginEnd="@dimen/activity_margin"
+		android:background="@drawable/bg_stroke_center"
+		android:foreground="?attr/selectableItemBackground"
+		android:orientation="vertical"
+		android:focusable="true"
+		android:clickable="true">
+		
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginStart="@dimen/activity_margin"
+			android:layout_marginEnd="@dimen/activity_margin"
+			android:background="@color/colorSecondaryText"/>
+		
+		<TextView
+			style="@style/TextNormal"
+			android:id="@+id/item_academic_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			tools:text="高等数学"/>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			
+			<TextView
+				style="@style/TextSmall"
+				android:id="@+id/item_academic_status"
+				android:layout_gravity="start|center"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				tools:text="已修"/>
+			
+			<TextView
+				style="@style/TextSmall"
+				android:id="@+id/item_academic_content"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				tools:text="讲课(3.0)" />
+		
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			
+			<TextView
+				style="@style/TextSmall"
+				android:id="@+id/item_academic_credit"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				tools:text="学分：3.0" />
+			
+			<TextView
+				style="@style/TextSmall"
+				android:id="@+id/item_academic_gpa"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				tools:text="绩点：5.0" />
+			
+			<TextView
+				style="@style/TextSmall"
+				android:id="@+id/item_academic_score"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				tools:text="成绩：100"/>
+		
+		</LinearLayout>
+	
+	</LinearLayout>
+	
+</FrameLayout>
