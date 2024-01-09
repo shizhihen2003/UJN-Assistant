@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://files.catbox.moe/5go8fg.png" width="130" height="130" alt="qust"></a>
+  <img src="Images/ico.png" width="130" height="130" alt="UJN"></a>
 </p>
 
 <div align="center">
@@ -19,15 +19,15 @@
 </p>
 
 ### 特别致谢
-本软件由2891954521开发，本人在取得授权对情况下进行魔改
+本软件由2891954521开发，在取得授权的情况下对情况下进行魔改
 原软件地址：https://github.com/2891954521/QUST-Assistant
-嗯，因为我太菜了，改后由bug，哈哈
+嗯，因为我太菜了，改后有bug，哈哈
 
 ### 功能简介 📃
 
 - 丢弃繁重的教务系统,实现APP登录查询
 
-![](Images/Screenshot_20230730-174031.jpg) ![](Images/Screenshot_20230730-174807.jpg) ![](Images/Screenshot_20230730-175038.jpg)
+![](Images/Screenshot_20230730-174031.png) ![](Images/Screenshot_20230730-174807.jpg) ![](Images/Screenshot_20230730-175038.jpg)
 
 
 ### 功能实现 💻
