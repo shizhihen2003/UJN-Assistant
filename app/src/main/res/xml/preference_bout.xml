@@ -35,7 +35,7 @@
             android:layout="@layout/item_preference">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/2891954521/QUST-Assistant"/>
+                android:data="https://github.com/shizhihen2003/UJN-Assistant"/>
         </Preference>
     
     </PreferenceCategory>

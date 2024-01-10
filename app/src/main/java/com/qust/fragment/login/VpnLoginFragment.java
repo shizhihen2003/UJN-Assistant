@@ -87,6 +87,6 @@ public class VpnLoginFragment extends BaseFragment{
 	
 	@Override
 	public String getName(){
-		return "智慧青科大登录";
+		return "智慧济大登录";
 	}
 }

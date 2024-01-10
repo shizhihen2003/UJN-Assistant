@@ -25,7 +25,7 @@ public class MainActivity extends QFragmentActivity{
 //		UpdateUtils.checkUpdateAsync(this);
 		
 		// 自动检查工具
-		AutoQueryModel.startAutoQuery(this);
+//		AutoQueryModel.startAutoQuery(this);
 	}
 
 	@Override

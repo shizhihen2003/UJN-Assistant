@@ -6,12 +6,12 @@ package com.qust;
 public class QustAPI{
 	
 	/**
-	 * 智慧青科大VPN HOST
+	 * 智慧济大VPN HOST
 	 */
 	public static final String VPN_HOST = "webvpn.ujn.edu.cn";
 	
 	/**
-	 * 智慧青科大VPN登录入口
+	 * 智慧济大VPN登录入口
 	 * <p>
 	 * Get:
 	 * <p>
@@ -34,12 +34,12 @@ public class QustAPI{
 	public static final String VPN_LOGIN = "https://webvpn.ujn.edu.cn/";
 	
 	/**
-	 * 智慧青科大 HOST
+	 * 智慧济大 HOST
 	 */
 	public static final String IPASS_HOST = "sso.ujn.edu.cn";
 	
 	/**
-	 * 智慧青科大登录入口
+	 * 智慧济大登录入口
 	 * <p>
 	 * Get:
 	 * <p>
